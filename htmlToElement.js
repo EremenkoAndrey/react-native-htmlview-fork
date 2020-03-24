@@ -15,7 +15,7 @@ const defaultOpts = {
   nodeComponentProps: null,
 };
 
-const Img = props => {
+export const Img = props => {
   const width =
     parseInt(props.attribs['width'], 10) || parseInt(props.attribs['data-width'], 10) || 0;
   const height =
